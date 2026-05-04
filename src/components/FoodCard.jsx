@@ -7,12 +7,12 @@ const FoodCard = ({ food }) => {
     return (
         <div className="card bg-base-100 shadow-sm border-2 border-fuchsia-400 p-6">
             <figure>
-                {/* <Image
+                <Image
                     src={image_link}
                     alt={dish_name}
                     width={200}
                     height={200}
-                ></Image> */}
+                ></Image>
             </figure>
             <div className="card-body">
                 <h2 className="card-title">
